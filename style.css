@@ -1,0 +1,158 @@
+*{
+    background-color: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 150%;
+}
+
+header {
+    padding: 20px 5%;
+}
+
+main{
+    margin-top: 30px;
+    margin-left: 11%;
+    display: flex;
+}
+
+.input-text{
+    padding: 20px;
+    color: #0A3871;
+    border: none;
+    resize: none;
+}
+
+.informacao {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.informacao-desenho {
+    height: 12px;
+    opacity: 0.8;
+}
+
+.encriptar{
+    background-color: #0A3871;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    transition: 100ms;
+}
+
+.encriptar:hover,.desencriptar:hover,.copiar:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+    
+}
+.desencriptar{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    color: #0A3871;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    transition: 100ms;
+}
+
+.copiar{
+    background: #FFFFFF;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    color: #0A3871;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    transition: 100ms;
+}
+
+.section1{
+    margin-left: 10%;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    text-align: center;
+}
+.mensagem{
+    background: #FFFFFF;
+    background-image: url("./imagens/boneco.png");
+    background-repeat: no-repeat;
+    background-position: 1px;
+    resize: none;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    padding: 10px;
+
+}
+
+footer {
+    margin: 70px 0 0 0;
+	text-align: center;
+	padding: 30px 0;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+.links {
+    position: relative;
+    margin-top: 15px;
+}
+
+.links a {
+    display: inline;
+	margin: 0 12px;
+}
+
+@media screen and (max-width: 480px) {
+    .icone {
+        left: 59%;
+    }
+    
+    main {
+        display: block;
+        flex-direction: row;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .input-text {
+        width: 100%;
+        height: 20%;
+        margin-left: 5%;
+        margin-bottom: 10px;
+
+    }
+
+    .botoes{
+        text-align: center;
+        margin: 20px 120px;
+    }
+
+    .encriptar{
+        margin-bottom: 10px;
+    }
+
+    footer{
+        margin-left: 200px;
+    }
+
+}
